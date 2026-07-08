@@ -1,16 +1,31 @@
-# React + Vite
+# Basic Note Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple note-taking web app for creating, editing, and deleting notes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new notes
+- Edit existing notes
+- Delete notes
+- Clean and minimal UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- HTML
+- CSS
+- JavaScript
+- React.js
+- node.js
+- express.js
+- mongo.db
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+
+- Type a note in the input area.
+- Click save/add to store it.
+- Use the edit and delete actions to manage notes.
+
+## Notes
+
+This project is intended as a basic practice app for learning frontend development and CRUD-style interactions.
